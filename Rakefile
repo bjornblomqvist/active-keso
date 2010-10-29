@@ -5,13 +5,15 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "active-keso"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A way to get cottage cheese out off activerecord}
+    gem.description = %Q{A way to get cottage cheese out off activerecord}
     gem.email = "darwin.git@marianna.se"
     gem.homepage = "http://github.com/bjornblomqvist/active-keso"
     gem.authors = ["Darwin"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_development_dependency "sqlite3-ruby"
+    gem.add_dependency "activerecord", ">= 2.3.5"
+    gem.add_dependency "keso", ">= 0.1.3"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
