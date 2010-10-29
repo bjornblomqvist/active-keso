@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Darwin"]
-  s.date = %q{2010-08-25}
+  s.date = %q{2010-10-29}
   s.description = %q{A way to get cottage cheese out off activerecord}
   s.email = %q{darwin.git@marianna.se}
   s.extra_rdoc_files = [
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "active-keso.gemspec",
      "lib/active-keso.rb",
      "spec/active-keso_spec.rb",
      "spec/spec.opts",
